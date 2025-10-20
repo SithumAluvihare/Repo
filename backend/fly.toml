@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for backend-dry-forest-2961 on 2025-10-20T00:37:29+05:30
+# fly.toml app configuration file generated for repo-wbhmdq on 2025-10-20T13:21:27Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'backend-dry-forest-2961'
+app = 'repo-wbhmdq'
 primary_region = 'bom'
 
 [build]
@@ -20,3 +20,4 @@ primary_region = 'bom'
   memory = '1gb'
   cpu_kind = 'shared'
   cpus = 1
+  memory_mb = 1024
